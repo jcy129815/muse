@@ -1,5 +1,5 @@
 body,html {scroll-behavior: smooth;}
-main {}
+main {position: relative;}
 /* aside */
 aside {
     display: flex; flex-flow: column nowrap;
@@ -19,15 +19,15 @@ main .content1 .swiper {
 }
 main .content1 .swiper .rap {}
 main .content1 .swiper .rap .slide1 {
-    background: url(../img/degas/degas2.jpg) center no-repeat;
+    background: url(../img/jeju/content3_9.jpg) center no-repeat;
     background-size: cover;
 }
 main .content1 .swiper .rap .slide2 {
-    background: url(../img/jeju/content3_7.jpg) center no-repeat;
+    background: url(../img/jeju/content3_6.jpg) center no-repeat;
     background-size: cover;
 }
 main .content1 .swiper .rap .slide3 {
-    background: url(../img/jeju/content3_4.jpg) center no-repeat;
+    background: url(../img/jeju/content3_2.jpg) center no-repeat;
     background-size: cover;
 }
 main .content1 p {
@@ -83,48 +83,48 @@ main .content3 .imgs ul .oline {
 }
 main .content3 .imgs ul .oline a {}
 main .content3 .imgs ul .oline a:nth-child(1) {
-    background-image: url(../img/jeju/content3_1.jpg);
+    background-image: url(../img/ganglng/g_1.jpg);
 }
 main .content3 .imgs ul .oline a:nth-child(2) {
-    background-image: url(../img/jeju/content3_2.jpg);
+    background-image: url(../img/ganglng/g_2.jpg);
 }
 main .content3 .imgs ul .oline a:nth-child(3) {
-    background-image: url(../img/jeju/content3_3.jpg);
+    background-image: url(../img/ganglng/g_3.jpg);
 }
 main .content3 .imgs ul .oline a:nth-child(4) {
-    background-image: url(../img/jeju/content3_4.jpg);
+    background-image: url(../img/ganglng/g_4.jpg);
 }
 main .content3 .imgs ul .tline {
     justify-content: space-between; margin: 40px 0;
 }
 main .content3 .imgs ul .tline a {}
 main .content3 .imgs ul .tline a:nth-child(1) {
-    background-image: url(../img/jeju/content3_5.jpg);
+    background-image: url(../img/ganglng/g_5.jpg);
 }
 main .content3 .imgs ul .tline a:nth-child(2) {
-    background-image: url(../img/jeju/content3_6.jpg);
+    background-image: url(../img/ganglng/g_6.jpg);
 }
 main .content3 .imgs ul .tline a:nth-child(3) {
-    background-image: url(../img/jeju/content3_7.jpg);
+    background-image: url(../img/ganglng/g_7.jpg);
 }
 main .content3 .imgs ul .tline a:nth-child(4) {
-    background-image: url(../img/jeju/content3_8.jpg);
+    background-image: url(../img/ganglng/g_8.jpeg);
 }
 main .content3 .imgs ul .sline {
     justify-content: space-between;
 }
 main .content3 .imgs ul .sline a {}
 main .content3 .imgs ul .sline a:nth-child(1) {
-    background-image: url(../img/jeju/content3_9.jpg);
+    background-image: url(../img/ganglng/g_9.jpeg);
 }
 main .content3 .imgs ul .sline a:nth-child(2) {
-    background-image: url(../img/jeju/content3_10.png);
+    background-image: url(../img/ganglng/g_10.png);
 }
 main .content3 .imgs ul .sline a:nth-child(3) {
-    background-image: url(../img/jeju/content3_11.png);
+    background-image: url(../img/ganglng/g_11.jpg);
 }
 main .content3 .imgs ul .sline a:nth-child(4) {
-    background-image: url(../img/slide2.jpg);
+    background-image: url(../img/ganglng/g_12.jpeg);
 }
 main .content3 .imgs ul li a {
     display: inline-block; width: 450px; height: 450px;
