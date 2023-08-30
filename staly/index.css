@@ -30,11 +30,11 @@ main .content2 .content2_info p:nth-child(2) {font-size: 1.5625rem; font-weight:
 main .content2 .content2_info p:nth-child(3) {line-height: 30px; font-weight: 500; color: #fff;}
 /* content3 ======================================================================================= */
 /* content3 ------------------------------------------------------------- */
-main .content3 {background: #000;}
-main .content3 .content3_txt {text-align: center;}
+main .content3 {background:#000; padding: 50px 0;}
+main .content3 .content3_txt {text-align: center; margin-bottom: 100px;}
 main .content3 .content3_txt p {letter-spacing: -0.02em;}
 main .content3 .content3_txt p:nth-child(1) {color: #D7A93B; font-weight: 700; font-size: 2.5rem;}
-main .content3 .content3_txt p:nth-child(2) {color: #fff; line-height: 28px; margin: 30px 0 50px 0;}
+main .content3 .content3_txt p:nth-child(2) {color: #fff; line-height: 28px; margin: 30px 0 ;}
 /* content3/gogh --------------------------------------------------------- */
 main .content3 .img {}
 main .content3 .img ul {display: flex; justify-content: space-between; margin-bottom: 14px;} 
@@ -43,16 +43,16 @@ main .content3 .img .gogh > li:nth-child(1) {
     background: #0E236A;
 } 
 main .content3 .img .gogh > li:nth-child(2) {
-    background-image: url(../img/gogh/jpg.jpg);
+    background-image: url(../img/gogh/gogh1.jpg);
 } 
 main .content3 .img .gogh > li:nth-child(3) {
-    background-image: url(../img/gogh/78890_16028_4150.jpg);
+    background-image: url(../img/gogh/gogh2.jpg);
 } 
 main .content3 .img .gogh > li:nth-child(4) {
-    background-image: url(../img/gogh/img.jpg);
+    background-image: url(../img/gogh/gogh3.jpg);
 } 
 main .content3 .img .gogh > li:nth-child(5) {
-    background-image: url(../img/gogh/fo.png);
+    background-image: url(../img/gogh/gogh4.png);
 } 
 main .content3 .img li  a {text-align: center; letter-spacing: -0.02em; display: flex; height: 370px; justify-content: center; align-items: center;}
 main .content3 .img li  a p {color: #fff; font-size: 1.125rem; line-height: 25px;}
@@ -62,53 +62,67 @@ main .content3 .img .klimt > li:nth-child(1) {
     background: #D2BD01;
 } 
 main .content3 .img .klimt > li:nth-child(2) {
-    background-image: url(../img/klimt/940704_large_1637385700_1.jpg.png);
+    background-image: url(../img/klimt/klimt1.png);
 } 
 main .content3 .img .klimt > li:nth-child(3) {
-    background-image: url(../img/klimt/3739dafcbea64b62dd70cdb4519c2f64.jpg);
+    background-image: url(../img/klimt/klimt2.jpg);
 } 
 main .content3 .img .klimt > li:nth-child(4) {
-    background-image: url(../img/klimt/jpg.jpg);
+    background-image: url(../img/klimt/klimt3.jpg);
 } 
 main .content3 .img .klimt > li:nth-child(5) {
-    background-image: url(../img/klimt/IMG_0833.jpg);
+    background-image: url(../img/klimt/klimt4.jpg);
 }
 /* matisse-------------------------------------------------------------------------- */
 main .content3 .img .matisse > li:nth-child(1) {
     background: #E41913;
 } 
 main .content3 .img .matisse > li:nth-child(2) {
-    background-image: url(../img/matisse/maxresdefault.jpg);
+    background-image: url(../img/matisse/matisse1.jpg);
 } 
 main .content3 .img .matisse > li:nth-child(3) {
-    background-image: url(../img/matisse/img.jpg);
+    background-image: url(../img/matisse/matisse2.jpg);
 } 
 main .content3 .img .matisse > li:nth-child(4) {
-    background-image: url(../img/matisse/16455816476552.jpg);
+    background-image: url(../img/matisse/matisse3.jpg);
 } 
 main .content3 .img .matisse > li:nth-child(5) {
-    background-image: url(../img/matisse/jpg.jpg);
+    background-image: url(../img/matisse/matisse4.jpg);
 }
 /* degas-------------------------------------------------------------------------- */
 main .content3 .img .degas > li:nth-child(1) {
     background: #D0D6C6;
 } 
 main .content3 .img .degas > li:nth-child(2) {
-    background-image: url(../img/degas/IMG_0855.jpg);
+    background-image: url(../img/degas/degas1.jpg);
 } 
 main .content3 .img .degas > li:nth-child(3) {
-    background-image: url(../img/degas/358958_440868_24.jpg);
+    background-image: url(../img/degas/degas2.jpg);
 } 
 main .content3 .img .degas > li:nth-child(4) {
-    background-image: url(../img/degas/img.jpg);
+    background-image: url(../img/degas/degas3.jpg);
 } 
 main .content3 .img .degas > li:nth-child(5) {
-    background-image: url(../img/degas/SE-be5d02d5-3ea1-4717-91ad-325f4517d30e.jpg);
+    background-image: url(../img/degas/degas4.jpg);
 }
 /* footer ================================================================================================================= */
-footer {}
+footer {
+    background: #000;
+    display: flex; justify-content: space-between;
+    align-items: start; padding: 25px 70px;
+}
 footer div {}
-footer div p:nth-child(1) {width: 107px; height: 77px;}
-footer div p > img {width: 100%;}
-footer div p:nth-child(2) {}
-footer div address {}
+footer .address p{color: #fff;}
+footer .address p:nth-child(1) {width: 107px; height: 77px;}
+footer .address p:nth-child(1) > img {width: 100%;}
+footer .address p:nth-child(2) {margin: 45px 0;}
+footer .address address {color: #fff;}
+footer .link {
+    display: flex; flex-flow: column;
+}
+footer .link a {color: #fff; margin-bottom: 30px;}
+footer .link a:last-child {margin-bottom: 0;}
+footer .sns {}
+footer .sns a {margin-right: 30px; display: inline-block; width: 30px; height: 30px;}
+footer .sns a:last-child {margin-right: 0;}
+footer .sns a img {width: 100%;}
