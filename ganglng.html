@@ -13,25 +13,7 @@
     <title>강릉 | 그대, 나의 뮤즈</title>
 </head>
 <body>
-    <header>
-        <div class="header">
-            <h1><a href="./index.html"><img src="./img/muse.png" alt=""></a></h1>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">홈</a></li>
-                    <li><a href="./jeju.html">제주</a></li>
-                    <li><a href="./ganglng.html">강릉</a></li>
-                    <li><a href="#">그대, 나의 뮤즈STORE</a></li>
-                    <li><a href="#">전시소개</a></li>
-                </ul>
-            </nav>
-            <select name="spicking" id="spicking">
-                <option value="KOR">KOR</option>
-                <option value="KOR">EN</option>
-                <option value="KOR">CH</option>
-            </select>
-        </div>
-    </header>
+    <?php include("./header.php") ?>
     <aside>
         <a href="#content2"></a>
         <a href="#content4"></a>
@@ -226,6 +208,7 @@
             </ul>
         </section>
     </main>
+    <?php include("./footer.php") ?>
 <script>
     const swiper = new Swiper('.swiper', {
     // Optional parameters

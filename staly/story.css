@@ -1,0 +1,89 @@
+main {background: #000;}
+/* top menu============================================================ */
+main .topmenu {
+    text-align: center;
+}   
+main .topmenu > div {
+    padding: 20px 0;
+}
+main .topmenu > div a {
+    font-size: 1.5625rem; letter-spacing: -0.02em;
+    font-weight: 700; margin-right: 113px; color: #fff;
+}
+main .topmenu > div a:last-child {margin-right: 0;}
+/* eve=================================================================== */
+main .eve {
+    padding: 80px 0; width: 1050px;
+    margin: 0 auto;color: #fff;
+}
+main .eve .title {
+    border-bottom: 2px solid #023E98;
+    margin-bottom: 50px;
+}
+main .eve .title p {
+    font-size: 1.25rem; font-weight: 700; letter-spacing: -0.02em;
+    padding: 10px 10px 25px 10px; border-bottom: 2px solid #0557A1;
+    width: 200px;
+}
+main .eve .sub {
+    display: flex; align-items: end;
+}
+main .eve .sub span {
+    display: inline-block;
+    width: 10px; height: 250px; background: #000;
+    margin-right: 45px;
+}
+main .eve .sub p {
+    font-size: 3.125rem; letter-spacing: -0.02em;
+    font-weight: 700; line-height: 70px;
+}
+main .eve .img {
+    background: url(../img/story/story.jpg) center no-repeat;
+    background-size: cover; 
+    width: 1050px; height: 600px;
+    margin: 50px 0;
+}
+main .eve > p {
+    text-align: center;
+    font-size: 1.25rem; font-weight: 500;
+    letter-spacing: -0.02em; line-height: 45px;
+}
+/* story================================================================== */
+main .story {
+    padding: 80px 0; width: 1050px;
+    margin: 0 auto; color: #fff;
+}
+main .story .title {
+    border-bottom: 2px solid #D60404;
+    margin-bottom: 50px;
+}
+main .story .title p {
+    font-size: 1.25rem; font-weight: 700; letter-spacing: -0.02em;
+    padding: 10px 10px 25px 10px; border-bottom: 2px solid #7A0000;
+    width: 200px;
+}
+main .story .sub {
+    display: flex; align-items: end;
+}
+main .story .sub span {
+    display: inline-block;
+    width: 10px; height: 250px; background: #000;
+    margin-right: 45px;
+}
+main .story .sub p {
+    font-size: 1.5rem; letter-spacing: -0.02em;
+    line-height: 55px;
+}
+main .story .sub p em {
+    font-size: 3.125rem; letter-spacing: -0.02em;
+    font-weight: 700;
+}
+main .story .video iframe {
+    width: 1050px; height: 600px;
+    margin: 50px 0;
+}
+main .story > p {
+    text-align: center;
+    font-size: 1.25rem; font-weight: 500;
+    letter-spacing: -0.02em; line-height: 45px;
+}
