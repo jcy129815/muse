@@ -8,7 +8,7 @@
                     <li><a href="./jeju.html">제주</a></li>
                     <li><a href="./ganglng.html">강릉</a></li>
                     <li><a href="./story.html">그대, 나의 뮤즈STORE</a></li>
-                    <li><a href="#">전시소개</a></li>
+                    <li><a href="#">공지사항</a></li>
                 </ul>
             </nav>
             <select name="spicking" id="spicking">

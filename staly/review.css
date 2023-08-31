@@ -1,0 +1,20 @@
+main {
+    background: #000;
+}
+main section {
+    width: 1000px;
+    margin:0 auto;
+    padding: 100px 0;
+}
+main section div {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 25px;
+}
+main section div p {
+    font-size: 1.785rem; letter-spacing: -0.02em;
+    font-weight: 700; color: #DFBA63;
+}
+main section iframe {
+    margin-top: 50px;
+    width: 1000px; height: 500px;
+}
