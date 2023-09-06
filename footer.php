@@ -12,7 +12,7 @@
             <a href="#">그대, 나의 뮤즈STORE</a>
         </div>
         <div class="sns">
-            <a href="#"><img src="./img/bloge.png" alt=""></a>
-            <a href="#"><img src="./img/feasbook.png" alt=""></a>
+            <a href="#"><img src="./img/footer_icon1.png" alt=""></a>
+            <a href="#"><img src="./img/footer_icon2.png" alt=""></a>
         </div>
 </footer>

@@ -46,7 +46,7 @@ main .eve .img {
 main .eve > p {
     text-align: center;
     font-size: 1.25rem; font-weight: 500;
-    letter-spacing: -0.02em; line-height: 45px;
+    letter-spacing: -0.02em; line-height: 30px;
 }
 /* story================================================================== */
 main .story {
@@ -85,5 +85,5 @@ main .story .video iframe {
 main .story > p {
     text-align: center;
     font-size: 1.25rem; font-weight: 500;
-    letter-spacing: -0.02em; line-height: 45px;
+    letter-spacing: -0.02em; line-height: 30px;
 }
