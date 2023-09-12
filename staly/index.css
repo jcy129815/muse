@@ -1,3 +1,4 @@
+body {min-width: 393px;}
 header {
     position: fixed; right: 50px; left: 50px; z-index: 999;
 }
@@ -16,6 +17,32 @@ header .header nav ul li:last-child {margin-right: 0;}
 header .header nav ul li a {font-size: 1.125rem; font-weight: 700; color: #fff;}
 header .header #spicking {}
 header .header #spicking option {}
+
+header .header .hidden_nav {
+    display: flex; flex-flow: column nowrap; 
+    align-items: center;
+}
+header .header .hidden_nav > a {
+    width: 22px; height: 22px; text-align: center;
+}
+header .header .hidden_nav > a > img {}
+header .header .hidden_nav .hidden {
+    display: flex; flex-flow: column nowrap; align-items: center;
+    width: 100%; background: #000; position: relative; z-index: 500; 
+    padding: 10px 0; bottom: 35px;
+}
+header .header .hidden_nav a {
+    color: #fff;
+    margin-bottom: 15px;
+    
+}
+header .header .hidden_nav .hidden a:first-child {
+    border: 1px solid #fff; border-radius: 100px;
+    padding: 2px 5px;
+}
+header .header .hidden_nav a:last-child {
+    margin-bottom: 0;
+}
 /* content1 ======================================================================================= */
 main {}
 main .content1 {width: 100%; background: #000;}
@@ -31,8 +58,10 @@ main .content2 .content2_info p:nth-child(3) {line-height: 30px; font-weight: 50
 /* content3 ======================================================================================= */
 /* content3 ------------------------------------------------------------- */
 main .content3 {background:#000; padding: 50px 0;}
-main .content3 .content3_txt {text-align: center; margin-bottom: 100px;}
-main .content3 .content3_txt p {letter-spacing: -0.02em;}
+main .content3 .content3_txt {margin-bottom: 100px; text-align: center;}
+main .content3 .content3_txt p {
+    letter-spacing: -0.02em; 
+}
 main .content3 .content3_txt p:nth-child(1) {color: #D7A93B; font-weight: 700; font-size: 2.5rem;}
 main .content3 .content3_txt p:nth-child(2) {color: #fff; line-height: 28px; margin: 30px 0 ;}
 /* content3/gogh --------------------------------------------------------- */
@@ -55,10 +84,17 @@ main .content3 .img .gogh > li:nth-child(5) {
     background-image: url(../img/gogh/gogh4.png);
 } 
 main .content3 .img li {}
-main .content3 .img li a {text-align: center; letter-spacing: -0.02em; height: 370px;}
-main .content3 .img li a p {color: #fff; font-size: 1.125rem; width: 100%;height: 370px; padding-top: 130px; line-height: 25px; opacity: 0; transition: all 0.3s;}
+main .content3 .img li a {letter-spacing: -0.02em; height: 370px;}
+main .content3 .img li a p {
+    padding: 15px;
+    color: #fff; font-size: 1.125rem; 
+    width: 100%; height: 100%; line-height: 25px; 
+    display: flex; flex-flow: column nowrap;
+    justify-content: center; align-items: center;
+    opacity: 0; transition: all 0.3s;
+}
 main .content3 .img li:hover a p {opacity: 1; background: rgba(33, 33, 33, 0.5);}
-main .content3 .img li a p em {font-weight: 700; font-size: 1.25rem; color: #fff; line-height: 60px;}
+main .content3 .img li a p em {font-weight: 700; font-size: 1.25rem; color: #fff; line-height: 15px;}
 /* klimt-------------------------------------------------------------------------- */
 main .content3 .img .klimt > li:nth-child(1) {
     background: #D2BD01;

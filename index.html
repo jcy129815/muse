@@ -7,11 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./staly/reset.css">
     <link rel="stylesheet" href="./staly/index.css"> 
-    <link rel="stylesheet" href="./staly/mead.css">
+    <link rel="stylesheet" href="./staly/index_uiux.css">
     <title>그대, 나의 뮤즈 | 메인</title>
 </head>
-<body>
-    <?php include("./header.php") ?>
+<body>    
+    <header>
+        <div class="header">
+            <h1><a href="./index.html"><img src="./img/muse.png" alt=""></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">홈</a></li>
+                    <li><a href="./jeju.html">제주</a></li>
+                    <li><a href="./ganglng.html">강릉</a></li>
+                    <li><a href="./story.html">그대, 나의 뮤즈STORE</a></li>
+                    <li><a href="#">공지사항</a></li>
+                </ul>
+            </nav>
+            <select name="spicking" id="spicking">
+                <option value="KOR">KOR</option>
+                <option value="KOR">EN</option>
+                <option value="KOR">CH</option>
+            </select>
+            <div class="hidden_nav">
+                <a href="#"><img src="./img/menuon.png" alt=""></a>
+                <div class="hidden">
+                    <a href="#"><img src="./img/menuoff.png" alt=""></a>
+                    <a href="./index.html">홈</a>
+                    <a href="./jeju.html">제주</a>
+                    <a href="./ganglng.html">강릉</a>
+                    <a href="./story.html">그대, 나의 뮤즈STORE</a>
+                    <a href="#">공지사항</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- <?php include("./header.php") ?> -->
     <main>
         <section class="content1">
             <!-- <div style="position:absolute;background-color:white;width:100%;height:140px;z-index:99999"></div> -->
@@ -237,7 +267,25 @@
             </div>
         </section>
     </main>
-    <?php include("./footer.php") ?>
+    <!-- <?php include("./footer.php") ?> -->
+    <footer>
+        <div class="address">
+            <p><img src="./img/muse.png" alt=""></p>
+            <p>그대, 나의 뮤즈</p>
+            <address>전화번호 : 000-1111-2222  기타 : https://더블류더블류.인스타그램.컴/뮤즈/  신고하기</address>
+        </div>
+        <div class="link">
+            <a href="#">홈</a>
+            <a href="#">제주</a>
+            <a href="#">강릉</a>
+            <a href="#">전시소개</a>
+            <a href="#">그대, 나의 뮤즈STORE</a>
+        </div>
+        <div class="sns">
+            <a href="#"><img src="./img/footer_icon1.png" alt=""></a>
+            <a href="#"><img src="./img/footer_icon2.png" alt=""></a>
+        </div>
+    </footer>
     <!-- 스크롤 트리거 플러그인 준비(url필수!) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>

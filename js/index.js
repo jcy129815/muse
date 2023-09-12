@@ -41,3 +41,15 @@ gsap.fromTo('.content2 p:nth-child(1)',{
             opacity:1,
             duration:10,
         })
+
+const hid = document.querySelector('header .header .hidden_nav .hidden')
+const off = document.querySelector('header .header .hidden_nav .hidden a:first-child')
+const on = document.querySelector('header .header .hidden_nav > a')
+console.log(hid,on,off)
+hid.style.display = 'none'
+on.addEventListener('click',function(){
+    hid.style.display = 'flex'
+})
+off.addEventListener('click',function(){
+    hid.style.display = 'none'
+})
