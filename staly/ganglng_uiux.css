@@ -1,0 +1,64 @@
+@media screen and (max-width: 1700px) {
+    main .content3 .imgs ul li a {width: 390px; height: 390px;}
+    main .content3 .imgs ul li a p {height: 390px;}
+}
+@media screen and (max-width: 1628px) {
+    main .content3 .imgs ul li a {width: 370px; height: 370px;}
+    main .content3 .imgs ul li a p {height: 370px;}
+}
+@media screen and (max-width: 1526px) {
+    main .content3 .imgs ul li a {width: 360px; height: 360px;}
+    main .content3 .imgs ul li a p {height: 360px;}
+}
+@media screen and (max-width: 1476px) {
+    main .content3 .imgs ul li a {width: 340px; height: 340px;}
+    main .content3 .imgs ul li a p {height: 340px;}
+}
+@media screen and (max-width: 1395px) {
+    main .content3 .imgs ul li a {width: 320px; height: 320px;}
+    main .content3 .imgs ul li a p {height: 320px;}
+}
+@media screen and (max-width: 1314px) {
+    main .content3 .imgs ul li a {width: 300px; height: 300px;}
+    main .content3 .imgs ul li a p {height: 300px;}
+
+}
+@media screen and (max-width: 1236px) {
+    main .content3 .imgs ul li a {width: 300px; height: 300px;}
+    main .content6 ul {width: 100%; justify-content: center; padding:0 40px;}
+    main .content6 ul li {width: 419.5px;}
+}
+@media screen and (max-width: 1090px) {
+    main #content4 table {width: calc(100% - 60px);}
+    main #content2 .info .txt .left {}
+    main #content2 .info .txt .right {}
+}
+@media screen and (max-width: 945px) {
+    main #content2 .info .txt {flex-flow: column nowrap; align-items: center;}
+    main #content2 .info .txt .left {margin-right: 0; margin-bottom: 40px;}
+    main #content4 table th {font-size: 1.5rem;}
+    main #content4 table tr td {font-size: 1.2rem;}
+    main .content6 ul {flex-flow: column; align-items: center;}
+}
+@media screen and (max-width: 800px) {
+    main #content4 table th {font-size: 1.2rem;}
+    main #content4 table tr td {font-size: 1rem; line-height: 25px;}
+    
+    main #content4 table tr td {padding: 20px 30px;}
+}
+@media screen and (max-width: 774px) {
+    
+    main #content4 > p {font-size: 0.8rem; line-height: 25px;}
+}
+@media screen and (max-width: 565px) {
+    main #content4 table tr td {padding: 10px 20px;}
+    main #content2 .info .txt {padding: 0 40px;}
+    main #content4 {padding: 80px 40px;}
+    main #content2 .info .txt .left {width: 300px;}
+    main #content2 .info .txt .right {width: 300px;}
+    main .content6 ul li {display: flex; flex-flow: column; align-items: center;}
+    main .content6 ul li > p:nth-child(2) {width: 300px;}
+}
+@media screen and (max-width: 485px) {
+    main #content5 p:nth-child(2) {padding:0 20px;}
+}
