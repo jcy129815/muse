@@ -52,10 +52,12 @@
 @media screen and (max-width:970px) {
     body {width: calc(100% - 0px);}
     main .content3 .img ul > li {width: 160px; height: 160px;}
-    
+    header .header .hidden_nav {display: flex;}
+
     header .header {flex-flow: column nowrap;}
     header .header nav {display: none;}
     header .header #spicking {display: none;}
+
 }
 /* 태블릿 843px */
 @media screen and (max-width:834px) {
@@ -68,7 +70,7 @@
     main .content2 {padding: 0 10px;}
     main .content3 {padding: 50px 0;}
     main .content3 .content3_txt {padding: 0 10px;}
-    main .content3 .img ul {flex-flow: column nowrap; align-items: center;}
+    main .content3 .img ul {flex-flow: row wrap; align-items: center; justify-content: space-around;}
     main .content3 .img ul > li {width: 270px; height: 270px; display: none;}
     main .content3 .img ul > li a {width: 100%;}
     main .content3 .img ul > li:nth-child(1) {display: flex; }
