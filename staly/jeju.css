@@ -123,10 +123,10 @@ main .content3 .imgs ul .oline a:nth-child(9) {
     background-image: url(../img/jeju/content3_9.jpg);
 }
 main .content3 .imgs ul .oline a:nth-child(10) {
-    background-image: url(../img/jeju/content3_10.png);
+    background-image: url(../img/jeju/content3_10.jpg);
 }
 main .content3 .imgs ul .oline a:nth-child(11) {
-    background-image: url(../img/jeju/content3_11.png);
+    background-image: url(../img/jeju/content3_11.jpg);
 }
 main .content3 .imgs ul .oline a:nth-child(12) {
     background-image: url(../img/slide2.jpg);
@@ -141,7 +141,7 @@ main .content3 .imgs ul li a p {
     color: #fff; font-size: 1.15rem; 
     transition: all 0.3s linear;
     display:  flex; line-height: 25px;
-    align-items: center;
+    align-items: center; justify-content: center;
 }
 main .content3 .imgs ul li :hover p {
     background: rgba(33, 33, 33, 50%);

@@ -117,19 +117,19 @@ main .content3 .imgs ul .oline a:nth-child(7) {
     background-image: url(../img/ganglng/g_7.jpg);
 }
 main .content3 .imgs ul .oline a:nth-child(8) {
-    background-image: url(../img/ganglng/g_8.jpeg);
+    background-image: url(../img/ganglng/g_8.jpg);
 }
 main .content3 .imgs ul .oline a:nth-child(9) {
-    background-image: url(../img/ganglng/g_9.jpeg);
+    background-image: url(../img/ganglng/g_9.jpg);
 }
 main .content3 .imgs ul .oline a:nth-child(10) {
-    background-image: url(../img/ganglng/g_10.png);
+    background-image: url(../img/ganglng/g_10.jpg);
 }
 main .content3 .imgs ul .oline a:nth-child(11) {
     background-image: url(../img/ganglng/g_11.jpg);
 }
 main .content3 .imgs ul .oline a:nth-child(12) {
-    background-image: url(../img/ganglng/g_12.jpeg);
+    background-image: url(../img/matisse/matisse2.jpg);
 }
 main .content3 .imgs ul li a {
     display: inline-block; width: 450px; height: 450px;
@@ -141,7 +141,7 @@ main .content3 .imgs ul li a p {
     color: #fff; font-size: 1.15rem;
     transition: all 0.3s linear;
     display: flex; line-height: 25px;
-    align-items: center;
+    align-items: center; justify-content: center;
 }
 main .content3 .imgs ul li :hover p {
     background: rgba(33, 33, 33, 50%);

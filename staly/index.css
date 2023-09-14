@@ -81,7 +81,7 @@ main .content3 .img .gogh > li:nth-child(4) {
     background-image: url(../img/gogh/gogh3.jpg);
 } 
 main .content3 .img .gogh > li:nth-child(5) {
-    background-image: url(../img/gogh/gogh4.png);
+    background-image: url(../img/gogh/gogh4.jpg);
 } 
 main .content3 .img li {}
 main .content3 .img li a {letter-spacing: -0.02em; height: 370px;}
@@ -100,7 +100,7 @@ main .content3 .img .klimt > li:nth-child(1) {
     background: #D2BD01;
 } 
 main .content3 .img .klimt > li:nth-child(2) {
-    background-image: url(../img/klimt/klimt1.png);
+    background-image: url(../img/klimt/klimt1.jpg);
 } 
 main .content3 .img .klimt > li:nth-child(3) {
     background-image: url(../img/klimt/klimt2.jpg);
