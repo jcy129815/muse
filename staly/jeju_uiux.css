@@ -43,11 +43,14 @@
 @media screen and (max-width: 800px) {
     main #content4 table th {font-size: 1.2rem;}
     main #content4 table tr td {font-size: 1rem; line-height: 25px;}
-    
     main #content4 table tr td {padding: 20px 30px;}
 }
 @media screen and (max-width: 774px) {
-    
+    aside a {
+        width: 30px; height: 30px; 
+        border-radius: 100%;
+        font-size: 0rem;
+    }
     main #content4 > p {font-size: 0.8rem; line-height: 25px;}
 }
 @media screen and (max-width: 565px) {

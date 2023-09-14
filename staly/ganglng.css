@@ -4,12 +4,17 @@ main {min-width: 393px;}
 aside {
     display: flex; flex-flow: column nowrap;
     position: fixed; z-index: 900; top: 350px;
+    left: 20px;
 }
 aside a {
-    display: inline-block; width: 30px; height: 30px; background: #DFBA63;
-    border-radius: 100%; margin-bottom: 30px;
+    display: inline-block; width: 80; 
+    font-weight: 700;  background: #DFBA63;
+    border-radius: 25px; margin-bottom: 30px; 
+    padding: 5px 3px; text-align: center;
+    letter-spacing: -0.02em; color: #DFBA63;
+    transition: all 0.3s linear;
 }
-aside a:hover {background: #fff;}
+aside a:hover {background: #000;}
 aside a:last-child {margin-bottom: 0;}
 /* content1================================================================ */
 main .content1 {background: #000; position: relative;}
