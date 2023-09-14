@@ -1,0 +1,57 @@
+@media screen and (max-width:1063px) {
+    main .topmenu {width: calc(100% - 30px);}
+    main .eve {
+            padding: 80px 30px; width: calc(100% - 30px);
+    }
+    main .story {
+            padding: 80px 30px; width: calc(100% - 30px);
+    }
+    main .eve .img {
+        width: 100%;
+    }
+    main .story > p {
+        font-size: 1rem; line-height: 30px;
+        width: 60%;
+    }
+}
+@media screen and (max-width:650px) {
+    main .eve .sub p {
+        font-size: 2rem; line-height: 55px;
+    }
+    main .story .sub p em {
+        font-size: 2rem; line-height: 55px;
+    }
+    main .eve .sub span {
+        width: 8px; height: 200px;
+    }
+    main .story .sub span {
+        width: 8px; height: 200px;
+    }
+    main .story > p {
+        font-size: 1rem; line-height: 30px;
+        width: 80%;
+    }
+}
+@media screen and (max-width:473px) {
+    main .eve .sub p {
+        font-size: 1.5rem; line-height: 40px;
+    }
+    main .story .sub p em {
+        font-size: 1.5rem; line-height: 40px;
+    }
+    main .story .sub p {
+        font-size: 1rem;
+    }
+    main .eve .sub span {
+        width: 5px; height: 180px;
+    }
+    main .story .sub span {
+        width: 5px; height: 180px;
+    }
+    main .eve > p {
+        font-size: 1rem;
+    }
+    main .story > p {
+        font-size: 1rem; line-height: 30px;
+    }
+}
