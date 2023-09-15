@@ -287,55 +287,11 @@
         </div>
     </footer>
     <!-- 스크롤 트리거 플러그인 준비(url필수!) -->
+    <script>
+        window.alert("안녕하세요. 현재 페이지는 메인 페이지와 제주도, 강릉, STORY페이지 까지만 준비되어 있습니다. 사용에 불편함을 드려 죄송합니다.")
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
     <script src="./js/index.js"></script>
-    <script>
-        window.alert("안녕하세요. 현재 페이지는 메인 페이지와 제주도, 강릉, STORY페이지 까지만 준비되어 있습니다. 사용에 불편함을 드려 죄송합니다.")
-        const tap2 = document.querySelector('.content2')
-        const tap2Txt1 = document.querySelector('.content2 p:nth-child(1)')
-        const tap2Txt2 = document.querySelector('.content2 p:nth-child(2)')
-        const tap2Txt3 = document.querySelector('.content2 p:nth-child(3)')
-        console.log(tap2,tap2Txt1,tap2Txt2,tap2Txt3)
-
-        gsap.fromTo('.content2 p:nth-child(1)',{ 
-                    scrollTrigger:'.content2',
-                    opacity:0,
-                    x:0 ,y:100,   
-                },{
-                    opacity:1,
-                    duration:3,
-                    x:0 ,y:-50,
-                })
-
-                gsap.fromTo('.content2 p:nth-child(2)',{ 
-                    scrollTrigger:'.content2',
-                    opacity:0,
-                    x:0 ,y:150,   
-                },{
-                    opacity:1,
-                    duration:4,
-                    x:0 ,y:-50,
-                })
-
-                gsap.fromTo('.content2 p:nth-child(3)',{ 
-                    scrollTrigger:'.content2',
-                    opacity:0,
-                    x:0 ,y:250,   
-                },{
-                    opacity:1,
-                    duration:5,
-                    x:0 ,y:-50,
-                })
-                
-                gsap.fromTo('.content3 .content3_txt p',{ 
-                    scrollTrigger:'.content3',
-                    opacity:0,
-                },{
-                    opacity:1,
-                    duration:10,
-                })
-
-    </script>
 </body>
 </html>
